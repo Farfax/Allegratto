@@ -1,2 +1,7 @@
 server:
   port: 9090
+
+spring:
+  datasource:
+#    url: jdbc:derby://localhost:1527/pt_lab1
+    driver-class-name: org.apache.derby.jdbc.EmbeddedDriver

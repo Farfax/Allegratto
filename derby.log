@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Sun Apr 08 13:04:28 CEST 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-a4ed-c2a3-00000bf2baf0 
-on database directory memory:/home/cheeky/workspace/Allegretto/testdb with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Mon Apr 09 18:58:00 CEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-ab57-ca16-00000e136550 
+on database directory memory:/home/cheeky/workspace/Allegretto/testdb with class loader sun.misc.Launcher$AppClassLoader@659e0bfd 
 Loaded from file:/home/cheeky/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.14.1.0/3bcd8b1af3f8cd022d54d331e00064776be04f9c/derby-10.14.1.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_162-b12

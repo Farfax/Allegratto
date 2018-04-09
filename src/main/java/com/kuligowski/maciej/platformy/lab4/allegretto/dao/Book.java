@@ -1,6 +1,10 @@
 package com.kuligowski.maciej.platformy.lab4.allegretto.dao;
 
+import org.springframework.lang.Nullable;
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class Book {
@@ -9,11 +13,26 @@ public class Book {
     @GeneratedValue(strategy= GenerationType.AUTO)
     public Long id;
 
-  //  @ManyToMany(cascade = CascadeType.ALL)
-    public String title;
-    public Long price;
-    public String author;
-    public Long count;
+    public String title="no Name";
+    public Long price=(long)0;
+    public String author="no Author";
+    public Long count=(long)0;
+
+    public Book()
+    {}
+
+    public Book(String title)
+    {
+        this.title=title;
+    }
+
+    public Book(String title, Long price, String author, Long count)
+    {
+        this.title=title;
+        this.price=price;
+        this.author=author;
+        this.count=count;
+    }
 
     public void setDetails(Book details)
     {
